@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - CrossCutting", "2.1 -
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 - Data", "2.2 - Data", "{A26E3D0C-5F97-4ACC-9019-90C04FAD782E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ease.Data", "Data\Ease.Data.csproj", "{E16AFFC2-48B7-48EF-BE11-1A6B526B9588}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ease.Infra.Data", "Data\Ease.Infra.Data.csproj", "{E16AFFC2-48B7-48EF-BE11-1A6B526B9588}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ease.Application", "Ease.Application\Ease.Application.csproj", "{3A33A5DD-3A00-436C-B6BF-E7943AFE07B7}"
 EndProject
