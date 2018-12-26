@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionString": {
+    "EaseDB":"Server-Localhost";
+  }
+}
