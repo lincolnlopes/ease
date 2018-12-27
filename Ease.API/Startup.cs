@@ -25,7 +25,9 @@ namespace Ease.API
         public void ConfigureServices(IServiceCollection services)
         {
             var conn = Configuration.GetConnectionString("EaseDB");
-            services.AddDbContext<EaseContext>(options => options.UseSqlServer(conn));
+            services.AddDbContext<EaseContext>(options => options
+                                                .UseSqlServer(conn, m => m.MigrationsAssembly("Ease.Infra.Data")));
+            services.AddMvcCore();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
