@@ -18,7 +18,7 @@ namespace Ease.API
             var builderConfiguration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("config.json");
-            var configuration = builderConfiguration.Build();
+            IConfigurationRoot configuration = builderConfiguration.Build();
             var connectionString = configuration.GetConnectionString("EaseDB");
 
             var builder = new DbContextOptionsBuilder<EaseContext>();
