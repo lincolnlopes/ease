@@ -3,7 +3,7 @@ using Ease.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Configuration.FileExtensions;
+
 namespace Ease.API
 {
     public class ContextFactory : IDesignTimeDbContextFactory<EaseContext>

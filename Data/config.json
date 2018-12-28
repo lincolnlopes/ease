@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "EaseDB": "Data Source=192.168.202.161;Initial Catalog=EaseDB;Persist Security Info=True;User ID=sa;Password=Lopes@2203"
+  }
+}
